@@ -16,10 +16,14 @@ const Navbar = () => {
       <div className="navbar-nav ms-auto">
         <Link className="nav-link active text-center" aria-current="page" to="#">Home</Link>
         <Link className="nav-link active  text-center" aria-current="page" to="#">About</Link>
-        <Link className="nav-link active text-center" aria-current="page" to="#">Contact</Link>
-
+        <Link className="nav-link active text-center mb-md-3" aria-current="page" to="#">Contact</Link>
+        <div class="d-grid gap-2 d-md-block">
+  <button class="btn btn-primary" type="button">Button</button>
+  <button class="btn btn-outline-primary ms-md-3" type="button">Button</button>
+</div>
       
-        <button className='btn btn-primary ms-4'>Connect</button>
+        {/* <button className='btn btn-primary  d-sm-block'>Connect</button> */}
+        {/* <button className='btn btn-primary d-sm-block '>Mint</button> */}
       </div>
     </div>
   </div>
