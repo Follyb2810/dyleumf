@@ -9,10 +9,11 @@ const Banner = () => {
             <div class="caption">
             <h2>Claim</h2>
             <p>Additional text or description here</p>
-            <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2"/>
-                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
-                </div>
+            {/* <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2"/>
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+            </div> */}
+            <button className='btn btn-primary btn-lg px-4'>MINT</button>
             </div>  
 
     </div>
@@ -32,10 +33,11 @@ const Banner = () => {
       <div class="caption">
             <h2>Your Text Here</h2>
             <p>Additional text or description here</p>
-            <div class="input-group mb-3">
+            {/* <div class="input-group mb-3">
                 <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2"/>
                 <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
-                </div>
+                </div> */}
+                            <button className='btn btn-primary btn-lg px-4'>MINT</button>
             </div>
      </div>
     <div className="carousel-item contain">
@@ -43,10 +45,11 @@ const Banner = () => {
       <div class="caption">
             <h2>Your Text Here</h2>
             <p>Additional text or description here</p>
-            <div class="input-group mb-3">
+            {/* <div class="input-group mb-3">
                 <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2"/>
                 <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
-                </div>
+                </div> */}
+                            <button className='btn btn-primary btn-lg px-4'>MINT</button>
             </div>
          </div>
     <div className="carousel-item contain">
@@ -61,14 +64,14 @@ const Banner = () => {
             </div>
       </div>
   </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+  {/* <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
     <span className="visually-hidden">Previous</span>
   </button>
   <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
     <span className="carousel-control-next-icon" aria-hidden="true"></span>
     <span className="visually-hidden">Next</span>
-  </button>
+  </button> */}
 </div>
   )
 }
